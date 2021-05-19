@@ -1,0 +1,31 @@
+.Home-page-container {
+    position: relative;
+
+    .card-container {
+        padding: 20px 20px 0 20px;
+    }
+
+    .calendar-container {
+        padding: 0 20px 20px 20px;
+    }
+
+    .floating-add-icon {
+        position: fixed;
+        bottom: 60px;
+        right: 35px;
+
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 0px 7px #88888880;
+
+        svg {
+            height: 17px;
+            fill: #F7993A;
+        }
+    }
+    
+}

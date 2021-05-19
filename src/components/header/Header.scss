@@ -1,0 +1,30 @@
+.chef-kart-header{  
+    background: #F7993A;
+    padding: 1rem;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 56px;
+    justify-content: space-between;
+    z-index: 2;
+
+    .side-menu-button {
+        svg{
+            width: 20px;
+            height: 20px;
+            fill: white;
+        }
+    }
+    .header-text {
+        font-size: 18px;
+        color: white;
+        padding-left: .75rem;
+        // font-family: 'Roboto Medium';
+    }
+}
+
+.flex {
+    display: flex;
+}

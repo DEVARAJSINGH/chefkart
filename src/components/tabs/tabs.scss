@@ -1,0 +1,31 @@
+.tabs-container {
+    background: #F7993A;
+    .tabs-wrapper {
+        width: 100%;
+        height: 40px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        list-style: none;
+
+        .tab {
+            padding: 10px 20px;
+            font-weight: 500px;
+            width: 50%;
+            opacity: .75;
+            color: white;
+            &:hover {
+                border-bottom: 1px solid white;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+            &.active {
+                border-bottom: 2px solid white;
+                pointer-events: none;
+                cursor: none;  
+                opacity: 1; 
+                font-weight: 500;
+            }
+        }
+    }
+}
