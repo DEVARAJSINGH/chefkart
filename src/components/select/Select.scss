@@ -1,3 +1,6 @@
+
+@import '../../assets/variable/color-var';
+
 .select-container {
 
 }
@@ -6,5 +9,5 @@
     border: none;
 }
 .bg-white {
-    background: white;
+    background: $text-white;
 }

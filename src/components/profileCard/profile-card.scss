@@ -1,3 +1,5 @@
+@import '../../assets/variable/color-var';
+
 .profile-card {
     display: flex;
     background: #EBECED50;
@@ -21,7 +23,7 @@
                 }
                 .sub-info {
                     font-size: 10px;
-                    color: #00000080;
+                    color: $lignt-font-color;
                 }
             }
             .details {
@@ -33,7 +35,7 @@
                 }
 
                 .leave-color {
-                    color: #F7993A;
+                    color: $theme-color;
                 }
             }
         }
